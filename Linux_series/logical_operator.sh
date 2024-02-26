@@ -7,7 +7,8 @@
 echo "College fees status"
 read -p "Please enter a amount you have make : " stuAmt
 echo "enter month in lowercae"
-read -p 'Please enter payment month : ' stuMnt
+read -p 'Please enter payment month : ' 
+stuMnt
 fix_amount=45000
 month="january"
 
