@@ -13,8 +13,9 @@ done
 num=1
 while [ $num -le 10 ]
 do 
-   echo $(( num * 2 ))
+  echo $(( num * 2 ))
   # num=`expr $num + 1`
   #(( num++ ))
+  sleep 2
   num=$(( num + 1 ))
 done
