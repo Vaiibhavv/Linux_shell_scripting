@@ -27,7 +27,7 @@ echo "size of an array1 is - " ${#companies[@]}
 echo "index positions are = " ${!companies[@]}
 
 #slicing
-echo "range from 0 to 2 inclusive: "  ${companies[@]:1:3}
+echo "range from 1 to 3 inclusive: "  ${companies[@]:1:3}
 
 #print selected index element
 echo "index 1 - " ${companies[1]}
