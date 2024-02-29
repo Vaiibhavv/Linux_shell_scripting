@@ -13,3 +13,12 @@ add()
     echo "$(( $1 + $2))"
 }
 add 5 6
+
+#local variable
+
+func1()
+{
+    local var1=$1
+    echo $var1
+}
+func1 local_variable
